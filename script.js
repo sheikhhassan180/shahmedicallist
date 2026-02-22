@@ -500,7 +500,7 @@ function sendWhatsApp() {
             const serialno = row.cells[0].innerText;
             const itemName = row.cells[1].innerText;
             const ext = row.cells[4].innerText;
-            message += `${qty} x ${itemName} (SNo: ${serialno}, ${ext})\n`;
+            message += `${qty} x ${itemName}\n`;
         }
     });
 
